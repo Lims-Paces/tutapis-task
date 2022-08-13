@@ -250,6 +250,8 @@ header {
     }
     .phone-icon {
         background: black;
+        height: 5rem;
+        width: 100vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -264,12 +266,14 @@ header {
     }
     .phone-icon {
         background: black;
+        height: 7rem;
+        width: 100vw;
         display: flex;
         align-items: center;
         justify-content: space-between;
         padding: 0 1rem;
         overflow: hidden;
-        width: 100vw;
+       
     }
 }
 
