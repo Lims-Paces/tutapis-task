@@ -11,6 +11,7 @@ html {
 body {
     font-family: 'Nunito', sans-serif;
     overflow-x: hidden;
+    scroll-behavior: smooth;
 }
 
 
@@ -273,7 +274,6 @@ header {
         justify-content: space-between;
         padding: 0 1rem;
         overflow: hidden;
-       
     }
 }
 
@@ -288,7 +288,7 @@ header {
 }
 
 .hero-image {
-    background-image: url('/images/hero-img.jpg');
+    background-image: url('');
     width: 100%;
     height: 100%;
 }
@@ -517,12 +517,14 @@ header {
 
 .mission-image-box {
     padding-left: 3.75rem;
+    overflow: hidden;
 }
 
 .mission-image1 {
     width: 90%;
     height: 100%;
     border-radius: 1.25rem;
+    overflow: hidden;
 }
 
 .mission-image1 img {
@@ -532,7 +534,6 @@ header {
 }
 
 .mission-image2 {
-    overflow: hidden;
     width: 25%;
     height: 50%;
     border-radius: 1.25rem;
@@ -545,6 +546,8 @@ header {
     width: 100%;
     height: 100%;
     object-fit: cover;
+    overflow: hidden;
+    border-radius: 1.25rem;
 }
 
 .mission .gradient {
